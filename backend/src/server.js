@@ -13,6 +13,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 const __dirname = path.resolve();
 
+
 //middleware
 if (process.env.NODE_ENV !== "production") {
   app.use(
@@ -22,6 +23,7 @@ if (process.env.NODE_ENV !== "production") {
   );
 }// this middleware will parse the JSON body : req.body
 
+app.use(express.json());
 //ratelimiter
 app.use(rateLimiter_md);
 
