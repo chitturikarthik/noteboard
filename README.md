@@ -147,5 +147,4 @@ The backend will run on `http://localhost:5000` and frontend on `http://localhos
 
 ## License
 
-This project is open source.</content>
-<parameter name="filePath">README.md
+This project is open source.
