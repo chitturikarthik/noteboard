@@ -29,7 +29,7 @@ const CreatePage = () => {
       toast.success("Note created!", {duration: 2000});
       navigate("/");
     } catch (error) {
-      console.error("Error in posting the data: ", error.message);
+      console.error("Error in posting the data: ", error);
       if(error.response.status === 429){
         toast.error("You've hit the ratelimit for creating notes too fast!",{
           duration:4000,
