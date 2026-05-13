@@ -1,0 +1,21 @@
+{
+  "name": "noteboard",
+  "version": "1.0.0",
+  "description": "A full-stack note-taking application that allows users to create, read, update, and delete notes in real-time. Built with a responsive design, rate limiting to prevent API abuse, and persistent data storage using MongoDB.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm i --prefix backend && npm i --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chitturikarthik/noteboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chitturikarthik/noteboard/issues"
+  },
+  "homepage": "https://github.com/chitturikarthik/noteboard#readme"
+}
